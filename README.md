@@ -64,4 +64,4 @@ The WWLAN (Wireless Wide Local Area Network) Simulator is a Python application b
 - For any issues or improvements, please open an issue on the GitHub repository.
 
 ## License
-This project is licensed under the [MIT License](LICENSE)- see the LICENSE file for details.
+This project is licensed under the [MIT License](LICENSE).
