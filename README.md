@@ -21,7 +21,7 @@ The WWLAN (Wireless Wide Local Area Network) Simulator is a Python application b
 - Specifications for devices are chosen, defining their types, initial locations, and other relevant characteristics.
 - Python classes model the devices, cells, channel assignment, handoff management, and authentication protocols.
 
-### Implementation Phase: WWLAN Simulator in Python
+### Implementation Phase: WWLAN Simulator
 
 - The entire WWLAN simulator is implemented using Python, leveraging object-oriented programming principles.
 - The simulator class includes methods for network simulation, device signal strength calculations, channel assignment, and authentication.
@@ -64,4 +64,4 @@ The WWLAN (Wireless Wide Local Area Network) Simulator is a Python application b
 - For any issues or improvements, please open an issue on the GitHub repository.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the [MIT License](LICENSE)- see the LICENSE file for details.
