@@ -47,7 +47,7 @@ The WWLAN (Wireless Wide Local Area Network) Simulator is a Python application b
 - Tkinter (usually included with Python installations)
 
 ## Running the Application
-1. Clone the repository: [git clone https://github.com//WWLAN-Simulator.git](https://github.com/adi10600/RF-Design-For-College-Wireless-Network.git)
+1. Clone the repository: git clone https://github.com/adi10600/RF-Design-For-College-Wireless-Network.git
 2. Navigate to the project directory: cd RF_Design
 3. Install the required packages: pip install -r requirements.txt
 4. Run the application: python main.py
