@@ -47,13 +47,13 @@ The WWLAN (Wireless Wide Local Area Network) Simulator is a Python application b
 - Tkinter (usually included with Python installations)
 
 ## Running the Application
-1. Clone the repository: git clone https://github.com/your-username/WWLAN-Simulator.git
+1. Clone the repository: [git clone https://github.com//WWLAN-Simulator.git](https://github.com/adi10600/RF-Design-For-College-Wireless-Network.git)
 2. Navigate to the project directory: cd RF_Design
 3. Install the required packages: pip install -r requirements.txt
 4. Run the application: python main.py
 5. On GUI, add users by giving some unique id (1,2,3..) with their locations and click on add user button
 6. After adding user, set handoff threshold and type cell ranges (in metres) with comma like I have used 3 cells then you have to type (30,40,50)
-7. Then, Click on simulate Network
+7. Then, click on simulate Network to see all details on the graphical interface.
 8. If you want to see the behaviour of the network on changing location of particular user then type user id then type new locations and then click on update location.
 9. Updation in signal strength, handoff given to cell all will be shown on the GUI.
 
