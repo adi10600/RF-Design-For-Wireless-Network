@@ -52,7 +52,7 @@ class HandoffManagement:
 
 class Authentication8021x:
     def __init__(self):
-        self.protocol = "802.1x"
+        self.protocol = "IEEE802.1x"
         self.user_credentials = {'user1': 'pass1', 'user2': 'pass2', 'user3': 'pass3'}
 
     def authenticate_device(self, device, username, password):
@@ -117,7 +117,7 @@ class WWLANApp:
 
         self.handoff_threshold_label = ttk.Label(root, text="Handoff Threshold:")
         self.handoff_threshold_entry = ttk.Entry(root)
-        self.cell_ranges_label = ttk.Label(root, text="Cell Ranges (comma-separated):")
+        self.cell_ranges_label = ttk.Label(root, text="Enter Cell Ranges (with comma):")
         self.cell_ranges_entry = ttk.Entry(root)
         self.simulate_button = ttk.Button(root, text="Simulate Network", command=self.simulate_network)
 
@@ -128,7 +128,7 @@ class WWLANApp:
             self.tree.heading(col, text=col, anchor="center")
             self.tree.column(col, width=150, anchor="center")  # Adjust the width as needed
 
-        self.update_user_label = ttk.Label(root, text="Update User Location:")
+        self.update_user_label = ttk.Label(root, text="Enter User ID (1,2..):")
         self.update_user_entry = ttk.Entry(root)
         self.update_location_label = ttk.Label(root, text="New Location (x, y):")
         self.update_location_entry = ttk.Entry(root)
