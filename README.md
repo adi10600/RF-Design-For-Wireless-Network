@@ -48,9 +48,9 @@ The WWLAN (Wireless Wide Local Area Network) Simulator is a Python application b
 
 ## Running the Application
 1. Clone the repository: git clone https://github.com/adi10600/RF-Design-For-College-Wireless-Network.git
-2. Navigate to the project directory: cd RF_Design
-3. Install the required packages: pip install -r requirements.txt
-4. Run the application: python main.py
+2. Navigate to the project directory: **cd RF_Design**
+3. Install the required packages: **pip install -r requirements.txt**
+4. Run the application: **python main.py**
 5. On GUI, add users by giving some unique id (1,2,3..) with their locations and click on add user button
 6. After adding user, set handoff threshold and type cell ranges (in metres) with comma like I have used 3 cells then you have to type (30,40,50)
 7. Then, click on simulate Network to see all details on the graphical interface.
